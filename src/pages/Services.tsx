@@ -3,8 +3,8 @@ import { Link } from "react-router"
 function Services() {
     return (
         <div className="flex flex-col items-center justify-center bg-gray-100 min-h-screen">
-            <div className="flex justify-center m-12 gap-4 cursor-pointer">
-                <div className="shadow-lg hover:shadow-2xl border-gray-600 w-1/3 ">
+            <div className="flex sm:flex-row flex-col justify-center m-12 gap-4 cursor-pointer">
+                <div className="shadow-lg hover:shadow-2xl border-gray-600 sm:w-1/3 w-fit ">
                     <div className="font-semibold text-2xl pt-4 justify-center flex">Premium 37500/-</div>
                     <div className="text-md m-8">
                         <ul className="list-disc list-inside">
@@ -36,7 +36,7 @@ function Services() {
                         </ul>
                     </div>
                 </div>
-                <div className="border-gray-600 hover:shadow-2xl shadow-lg w-1/3 ">
+                <div className="border-gray-600 hover:shadow-2xl shadow-lg sm:w-1/3 w-fit ">
                     <div className="font-semibold text-2xl justify-center pt-4 flex">Gold 67800/-</div>
                     <div className="text-md m-8">
                         <ul className="list-disc list-inside">
@@ -67,7 +67,7 @@ function Services() {
                         </ul>
                     </div>
                 </div>
-                <div className="border-gray-600 hover:shadow-2xl shadow-lg w-1/3 ">
+                <div className="border-gray-600 hover:shadow-2xl shadow-lg sm:w-1/3 w-fit ">
                     <div className="font-semibold text-2xl justify-center pt-4 flex">Platinum 105000/-</div>
                     <div className="m-8">
                         <ul className="list-disc list-inside">

@@ -12,16 +12,16 @@ function App() {
 
   return (
     <BrowserRouter>
-      <header className='mx-14'>
+      <header className='sm:mx-14 mx-2 pb-6'>
         <DisclaimerPopup />
-        <nav className='flex m-4 px-20 py-2 container justify-between items-center align-middle rounded-full bg-gray-100'>
-          <div className='text-2xl text-blue-900 font-bold'>
+        <nav className='flex sm:flex-row flex-col sm:gap-1 gap-4 sm:m-4 sm:px-20 py-2 container justify-between items-center align-middle sm:rounded-full rounded-none bg-gray-100'>
+          <div className='sm:text-2xl text-lg text-blue-900 font-bold'>
             <Link to='/'>Option and Trade</Link>
           </div>
           <div className='flex space-x-12 '>
-            <Link to='/' className='relative text-lg text-black hover:text-blue-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>Home</Link>
-            <Link to="/Services" className='relative text-lg text-black hover:text-blue-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>Services and Packages</Link>
-            <Link to='/Aboutus' className='relative text-lg text-black hover:text-blue-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>About us</Link>
+            <Link to='/' className='relative sm:text-lg text-md text-black hover:text-blue-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>Home</Link>
+            <Link to="/Services" className='relative sm:text-lg text-md text-black hover:text-blue-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>Services and Packages</Link>
+            <Link to='/Aboutus' className='relative sm:text-lg text-md text-black hover:text-blue-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]'>About us</Link>
           </div>
           <div>
             <Link to="/Popupform" className='text-gray-700 hover:text-blue-600 transition colors'>
