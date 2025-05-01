@@ -96,7 +96,7 @@ function Services() {
                 <div>
                 <div className="flex justify-center" >
                     <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                        <a href="/Popupform">Contact us</a>
+                        <Link to="/Popupform">Contact us</Link>
                     </button>
                 </div>
                 <div className="text-lg text-blue-950 hover:text-blue-400">
