@@ -2,7 +2,7 @@
 const Termsconditions = () => {
     return (
         <div className=" bg-gray-100 auto-h-screen">
-        <div className="mx-52 mt-4 text-md font-sans">
+        <div className="sm:mx-52 mx-4 mt-4 text-md font-sans">
             <p className="text-2xl font-semibold my-6 flex justify-center">Terms and Conditions</p>
                 <div>Through your use of our official website (https://www.optionandtrade.com/), and payment for a subscription to any of our research services, you acknowledge and agree to be bound by the terms and conditions listed below as well as all other terms and conditions, legal disclaimer, disclosures, policies, and user consent of Sameer Mekde as stated on our official website (https://www.optionandtrade.com/).</div>
                 <br />
@@ -13,7 +13,7 @@ const Termsconditions = () => {
                 <div>The term Sameer Mekde (https://www.optionandtrade.com/) is used throughout this entire document to refer to the website, its owners/proprietor, and the employees and associates of the owner. The words ‘You’ refer to the viewer/user/subscriber of Sameer Mekde’s website/mobile application/research services.</div>
                 </div>
 
-                <div className="mb-8 mx-60 text-base font-sans">
+                <div className="mb-8 sm:mx-60 mx-8 text-base font-sans">
                 <ul className="list-disc lsit-inside">
                     <li>You hereby declare that the details provided by you at the time of subscription to our services are true and correct to the best of your knowledge and belief, and you undertake to inform us of any changes therein.</li>
                     <li>In case any of the above information is found to be false or misleading, you are aware that you may be held liable for it.

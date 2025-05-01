@@ -1,7 +1,7 @@
 
 function Refundpolicy() {
   return (
-    <div className="mx-20 p-12">
+    <div className="sm:mx-20 p-12">
       <p className="text-3xl my-4">Refund Policy</p>
       <p><span className="font-bold">Please Note – </span> We maintain a strict non-refundable policy for all service packages. Once purchased, no refunds will be issued under any circumstances.</p>
       <br />
@@ -20,7 +20,7 @@ function Refundpolicy() {
       <br />
       <br />
       <p>
-        <span className="text-2xl font-semibold">
+        <span className="sm:text-2xl text-xl font-semibold">
           Compliance with the Investment Advisor Regulation 2013
         </span>
       <br />
