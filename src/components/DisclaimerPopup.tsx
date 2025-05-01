@@ -11,11 +11,11 @@ const DisclaimerPopup = () => {
 
   if (!isVisible) {
     return (
-      <div className="fixed inset-0 flex p-10 items-center justify-center bg-black bg-opacity-70 z-50 overflow-auto">
-        <div className="bg-white p-3 rounded-lg shadow-lg max-w-sm w-full">
+      <div className="fixed inset-0 flex p-10 items-center justify-center bg-black bg-opacity-70 z-50 sm:overflow-hidden overflow-scroll">
+        <div className="bg-white p-3 rounded-lg   shadow-lg max-w-lg w-full">
           <h2 className="text-lg text-center font-bold mb-2">Disclaimer</h2>
           <p className="mb-4">
-      
+
             • Option and Trade Financial - Do not provide any Guaranteed Return or Profit Sharing. <br />
             • Option and Trade Financial - Do not Provide Any Service which is not mentioned in our company websites. <br />
             • In case of any person sell such kind of service which you didn't find on our websites so you can call us on -@ +91 <br />
